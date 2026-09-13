@@ -3,7 +3,7 @@
 import json
 from google import genai
 
-GOOGLE_API_KEY = "AQ.Ab8RN6KPi9qjdzw8rJdNZp-HgoFPvrdu9VnQQGkLitr7bIjYNg"
+GOOGLE_API_KEY = "GOOGLE_API_KEY = "COLE_SUA_API_KEY_AQUI""
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
 dados_banco_clyvo = {
