@@ -1,3 +1,25 @@
+# Clyvo SmartCare - IoT & AI Integration
+
+**🎥 Vídeo de Apresentação (Pitch):** [https://youtu.be/ubgFWe9V_t8]
+
+---
+
+## 👥 Equipe
+
+| Integrante | RM |
+| :--- | :--- |
+| Bruno Andrade Zanateli | 563736 |
+| Christian S. Freitas | 566098 |
+| Pedro Pereira Biasolli | 562521 |
+| Rodrigo Tiezzi | 562975 |
+| Matheus Enrico Souza | 562532 |
+
+## ⚠️ Aviso sobre a API Key (Segurança)
+
+No arquivo `clyvo_ai.py`, a variável `GOOGLE_API_KEY` está preenchida com o valor `"COLE_SUA_API_KEY_AQUI"`. A chave real foi intencionalmente removida do repositório público por questões de segurança. O GitHub possui um sistema de *Secret Scanning* que bloqueia commits contendo chaves ativas para evitar vazamentos e acessos indevidos. Para executar o código localmente e testar a integração, basta utilizar a chave temporária enviada no arquivo `.zip` da entrega oficial.
+
+---
+
 ## 🧠 Módulo de Inteligência Artificial e IoT (Disruptive Architectures)
 
 ### 1. O Problema a ser Resolvido
@@ -12,6 +34,7 @@ Foi adotada a **IA Generativa (LLM)** atuando como um motor de inferência conte
 * **Dados Dinâmicos (Telemetria IoT):** Frequência cardíaca (BPM) e Status de agitação do acelerômetro.
 
 ### 4. Diagrama Arquitetural e Fluxo de Dados
+
 ```mermaid
 graph TD
     A[Coleira Smart IoT] -->|Frequência Cardíaca e Agitação| B(Motor Clyvo AI - Backend)
